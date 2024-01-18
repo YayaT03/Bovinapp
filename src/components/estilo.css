@@ -1,0 +1,59 @@
+.colormenu{
+    background-color: rgb(155, 242, 133);
+    font-size: 20px;
+  } 
+
+  .imgfondo{
+    
+  background-image: url('../img/cows.jpg');
+  background-size:cover;
+  background-position:center; 
+  background-repeat: no-repeat; 
+  width: 101%;
+  height:auto;
+  
+}
+.frase{
+  margin-top: 200px;
+  color: #ffffff;
+  
+}
+.parrafo{
+  color:#ffffff;
+  text-align: center;
+  font-style: oblique;
+ 
+}
+
+footer{
+  padding:15px;
+  margin-top:15px;
+  color:#0c0c0c;
+  background-color:rgb(155, 242, 133);
+  text-align: center;
+  
+  
+}
+.p1{
+  text-align: center;
+  size: 200px;
+  margin-top:50px;
+}
+.margen{
+  margin-top: 100px;
+}
+.margen2{
+  margin-top: 150px;
+}
+
+.img{
+    
+  background-image: url('../img/cw.jpg');
+  background-size:cover;
+  background-position:center; 
+  background-repeat: no-repeat; 
+  width: 101%;
+  height:auto;
+  color:#ffffff;
+  
+}
