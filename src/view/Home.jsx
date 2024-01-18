@@ -12,7 +12,7 @@ const Home = () => {
         Bienvenidos a la app que te ayudara a llevar el control de tu ganaderia</p>
 
         <p className='parrafo display-6 mt-5'>Ideal para no perderte ninguna fecha importante y olvidarte de incomodos cuadernos
-          y multiples hojas sin orden y que se pierden facil
+          y multiples hojas sin orden y que se pierden con facilidad.
         </p>
 
         <div className='mt-5'>
