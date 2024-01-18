@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Route, Routes } from 'react-router'
-import NavbarDashboard from '../dashoboard/components/NavbarDashboard'
+import NavbarDashboard from "../dashboard/components/NavbarDashboard"
 
 import Home from "./view/Home"
 
