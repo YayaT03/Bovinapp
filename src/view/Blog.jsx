@@ -2,12 +2,15 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import ima1 from "../img/ima1.jpg"
 import Footer from "../components/Footer"
+import Navbar from "../components/Navbar"
 
 
 const Blog = () => {
   return (
 
     <div className='margen img '>
+        
+    <Navbar />
          
         <header className="bg-ligth 'Cabin', sans-serif"></header>
 

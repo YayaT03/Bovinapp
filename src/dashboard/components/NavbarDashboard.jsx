@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const NavbarDashboard = () => { 
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light colormenu">
+      <nav className="navbar navbar-expand-lg navbar-dark colormenu">
         <div className="container-fluid">
 
           <Link to="/" className="navbar-brand">
@@ -22,56 +22,56 @@ const NavbarDashboard = () => {
             <ul className="navbar-nav mb-2 mb-lg-0">
 
               <li className="nav-item">
-                <Link to="/aplication" className="nav-link text-white" >
+                <Link to="/aplication" className="nav-link text-dark" >
                   <i className="fa-solid fa-house fa-sm me-2"></i>Inicio
                 </Link>
               </li>
 
               <li className="nav-item">
-                <Link to="reservas" className="nav-link text-white" >
+                <Link to="reservas" className="nav-link text-dark" >
                   <i className="fa-solid fa-hotel fa-sm me-2"></i>Animal
                 </Link>
               </li>
 
               <li className="nav-item">
-                <Link to="proveedores" className="nav-link text-white" >
+                <Link to="proveedores" className="nav-link text-dark" >
                   <i className="fa-solid fa-parachute-box fa-sm me-2"></i>Registro novillas
                 </Link>
               </li>
 
               <li className="nav-item">
-                <Link to="paquetes" className="nav-link text-white">
+                <Link to="paquetes" className="nav-link text-dark">
                   <i className="fa-solid fa-box-open fa-sm me-2"></i>Partos
                 </Link>
               </li>
 
               <li className="nav-item">
-                <Link to="destinos" className="nav-link text-white" >
+                <Link to="destinos" className="nav-link text-dark" >
                   <i className="fa-solid fa-plane fa-sm me-2"></i>Secado
                 </Link>
               </li>
 
               <li className="nav-item">
-                <Link to="cliente" className="nav-link text-white" >
+                <Link to="cliente" className="nav-link text-dark" >
                   <i className="fa-sharp fa-solid fa-person fa-sm me-2"></i>palpacion
                 </Link>
               </li>
 
               <li className="nav-item">
-                <Link to="proveedores" className="nav-link text-white" >
+                <Link to="proveedores" className="nav-link text-dark" >
                   <i className="fa-solid fa-parachute-box fa-sm me-2"></i>Inseminacion
                 </Link>
               </li>
               
               <li className="nav-item">
-                <Link to="proveedores" className="nav-link text-white" >
+                <Link to="proveedores" className="nav-link text-dark" >
                   <i className="fa-solid fa-parachute-box fa-sm me-2"></i>Inventario termo
                 </Link>
               </li>
               
               <li className="nav-item dropdown">
                 <Link
-                  className="nav-link dropdown-toggle text-white" id="navbarDropdown" role="button"  data-bs-toggle="dropdown" aria-expanded="false"
+                  className="nav-link dropdown-toggle text-dark" id="navbarDropdown" role="button"  data-bs-toggle="dropdown" aria-expanded="false"
                 >
                   <i className="fa-solid fa-user-tie fa-sm me-2"></i>
                   Usuario

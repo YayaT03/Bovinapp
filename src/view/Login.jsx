@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Login.css'
+import Navbar from '../components/Navbar'
 
 const Login = () => {
   return (
     <div>
+      <Navbar/>
       <div >
         <div className="row justify-content-center imfondo  mt-5 ">
             <div className="col-md-6 col-xl-4 ">

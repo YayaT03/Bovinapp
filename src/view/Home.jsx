@@ -1,11 +1,13 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import { Link } from 'react-router-dom'
+import Navbar from '../components/Navbar'
 
 const Home = () => {
   return (
-    <div className='row justify-content-center imgfondo'>
 
+    <div className='row justify-content-center imgfondo'>
+     <Navbar />
       <div className='container md '>
 
         <p className='display-3  strong frase ' >
@@ -23,10 +25,9 @@ const Home = () => {
         
       
       </div>
-      
+     
       <Footer />
-    </div>
-
+ </div>
 
   )
 }
