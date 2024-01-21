@@ -29,43 +29,43 @@ const NavbarDashboard = () => {
 
               <li className="nav-item">
                 <Link to="reservas" className="nav-link text-dark" >
-                  <i className="fa-solid fa-hotel fa-sm me-2"></i>Animal
+                  <i className="fa-solid fa-cow fa-sm me-2"></i>Animal
                 </Link>
               </li>
 
               <li className="nav-item">
                 <Link to="proveedores" className="nav-link text-dark" >
-                  <i className="fa-solid fa-parachute-box fa-sm me-2"></i>Registro novillas
+                  <i className="fa-solid fa-cow fa-sm me-2"></i>Registro novillas
                 </Link>
               </li>
 
               <li className="nav-item">
                 <Link to="paquetes" className="nav-link text-dark">
-                  <i className="fa-solid fa-box-open fa-sm me-2"></i>Partos
+                  <i className="fa-solid fa-calendar-days fa-sm me-2"></i>Partos
                 </Link>
               </li>
 
               <li className="nav-item">
                 <Link to="destinos" className="nav-link text-dark" >
-                  <i className="fa-solid fa-plane fa-sm me-2"></i>Secado
+                  <i className="fa-regular fa-calendar-check fa-sm me-2"></i>Secado
                 </Link>
               </li>
 
               <li className="nav-item">
                 <Link to="cliente" className="nav-link text-dark" >
-                  <i className="fa-sharp fa-solid fa-person fa-sm me-2"></i>palpacion
+                  <i className="fa-solid fa-table fa-sm me-2"></i>palpacion
                 </Link>
               </li>
 
               <li className="nav-item">
                 <Link to="proveedores" className="nav-link text-dark" >
-                  <i className="fa-solid fa-parachute-box fa-sm me-2"></i>Inseminacion
+                  <i className="fa-solid fa-seedling fa-sm me-2"></i>Inseminacion
                 </Link>
               </li>
               
               <li className="nav-item">
                 <Link to="proveedores" className="nav-link text-dark" >
-                  <i className="fa-solid fa-parachute-box fa-sm me-2"></i>Inventario termo
+                  <i className="fa-solid fa-pencil fa-sm me-2"></i>Inventario termo
                 </Link>
               </li>
               
