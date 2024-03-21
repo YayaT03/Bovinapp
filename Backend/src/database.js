@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const URI = 'mongodb://127.0.0.1:27017/bovinaap';
+const URI = 'mongodb://127.0.0.1:27017/bovinApp';
 
 const conn = async () => {
     try {
