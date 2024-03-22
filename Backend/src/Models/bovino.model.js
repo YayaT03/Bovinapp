@@ -13,18 +13,18 @@ const bovinoSchema= new Schema({
         type: String,
     },
     fechanacimiento:{
-        type: Date,
+        type: String,
     },
     fechadeingreso:{
-        type: Date,
+        type: String,
     },
     fechadesalida:{
-        type: Date,
+        type: String,
     },
 },
 
-  {timestamps: true}
-
-);
+{
+    timestamps: true //Fecha donde se creó el esquema
+});
 
 module.exports= model("bovino", bovinoSchema);

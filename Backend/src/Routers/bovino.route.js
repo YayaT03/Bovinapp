@@ -1,17 +1,11 @@
-const {Router} = require("express")
-const bovinoCtrl = require ("../Controllers/bovino.controller")
-const route = Router ();
+const { Router } = require('express')
+const route = Router()
+const bovinoCtrl = require('../Controllers/bovino.controller')
 
+route.get('/list', bovinoCtrl.list);
+//route.get('/:id', bovinoCtrl.listid);
+route.post('/add', bovinoCtrl.add);
+route.put('/:id', bovinoCtrl.update);
+route.delete('/:id', bovinoCtrl.delete);
 
-route.get ("/listar", bovinoCtrl.listar);
-
-//route.post ("/bovinoid/:id", bovinoCtrl.listid);
-
-route.post ("/add", bovinoCtrl.add);
-
-route.put("/update/:id", bovinoCtrl.update);
-
-
-route.delete("/delete/:id", bovinoCtrl.delete);
-
-module.exports = route;
+module.exports = route

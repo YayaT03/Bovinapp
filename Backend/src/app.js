@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(cors({origin: "*"}));
 
-app.use("/bovino ",require('./Routers/bovino.route'));
+app.use("/bovinos ",require('./Routers/bovino.route'));
 //app.use("/detallepedido", require('./routes/detallepedido.route'));
 //app.use("/factura",require('./routes/factura.route'));
 //app.use("/ordenp",require('./routes/ordenp.route'));
