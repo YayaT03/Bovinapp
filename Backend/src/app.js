@@ -15,7 +15,10 @@ app.use(express.json());
 
 app.use(cors({origin: "*"}));
 
-app.use("/bovinos ",require('./Routers/bovino.route'));
+app.use("/bovinos",require('./Routers/bovino.route'));
+app.use("/secados",require('./Routers/secado.route'));
+app.use("/partos",require('./Routers/parto.route'));
+
 
 
 app.listen(app.get('Port'), () => { 
